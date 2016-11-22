@@ -1,4 +1,7 @@
 1. Make sure that java and mvn is installed in your computer and resides in the PATH and JAVA_HOME is set.
+2. Go to IAM & ADMIN and click Service Accounts . Under options Compute Engine default service account click "create key" . the key would be downloaded .
+3. Please set the location of key in System Path as
+GOOGLE_CREDENTIALS_CREDENTIALS=path to the json key.
 Once the project is cloned in the computer  git clone https://github.com/rohitnigam/dataflow_wordcount.git
 cd dataflow_wordcount
 2. mvn clean install
